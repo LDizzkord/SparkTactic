@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | SparkTaktic</title>
+  <script type="text/javascript">
+    function mensaje() {
+      alert("¡¡¡¡¡Gracias por su comentario!!!!!");
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container-fluid">
+      <div class="d-none d-lg-flex flex-grow-1 align-items-center justify-content-between w-100">
+        <ul class="navbar-nav d-flex justify-content-center">
+          <li class="nav-item me-3"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+        </ul>
+        <a class="navbar-brand mx-4" href="index.html">
+          <img src="/img/logo.svg" alt="SparkTaktic Logo" style="height: 40px; filter: invert(1) brightness(2);">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center">
+          <li class="nav-item me-3"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="d-lg-none d-flex flex-grow-1 align-items-center justify-content-between">
+        <a class="navbar-brand mx-auto" href="index.html">
+          <img src="/img/logo.svg" alt="SparkTaktic Logo" style="height: 35px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse bg-dark" id="mobileMenu">
+        <ul class="navbar-nav w-100 d-lg-none text-center pt-3 pb-2">
+          <li class="nav-item py-2"><a class="nav-link fs-5" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item py-2"><a class="nav-link fs-5" href="servicios.html">Servicios</a></li>
+          <li class="nav-item py-2"><a class="nav-link fs-5" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item py-2"><a class="nav-link fs-5 active" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--FORMULARIO DE CONTACTO-->
+  <section class="py-5 bg-white">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom fw-bold text-center display-5 mb-4">Contáctanos</h2>
+      <p class="fs-5 text-muted text-center mb-5 mx-auto" style="max-width: 700px;">¿Tienes alguna pregunta o deseas
+        trabajar con nosotros? Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
+      </p>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"
+                required></textarea>
+            </div>
+            <a onclick="mensaje()"><button type="submit" class="btn btn-primary px-4 py-2">Enviar Mensaje</button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-5 bg-black text-secondary">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12">
+          <a href="#" class="d-inline-block mb-3">
+            <img src="/img/logo.svg" alt="SparkTaktic Logo" style="height: 40px; filter: invert(1) brightness(2);">
+          </a>
+          <p class="small">Estrategias digitales innovadoras para llevar tu negocio al siguiente nivel. Resultados
+            medibles y crecimiento sostenible.</p>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h5 class="text-white fw-semibold mb-3">Navegación</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="proyectos.html" class="text-secondary text-decoration-none">Proyectos</a></li>
+            <li class="mb-2"><a href="servicios.html" class="text-secondary text-decoration-none">Servicios</a></li>
+            <li class="mb-2"><a href="nosotros.html" class="text-secondary text-decoration-none">Nosotros</a></li>
+            <li><a href="contacto.html" class="text-secondary text-decoration-none">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+          <h5 class="text-white fw-semibold mb-3">Servicios</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="index.html#servicios" class="text-secondary text-decoration-none">Estrategia
+                Marketing</a></li>
+            <li class="mb-2"><a href="index.html#servicios" class="text-secondary text-decoration-none">SEO Avanzado</a>
+            </li>
+            <li class="mb-2"><a href="index.html#servicios" class="text-secondary text-decoration-none">Publicidad
+                PPC</a></li>
+            <li><a href="index.html#servicios" class="text-secondary text-decoration-none">Gestión Redes</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 text-lg-end">
+          <h5 class="text-white fw-semibold mb-3">Síguenos</h5>
+          <a href="#" class="text-white fs-4 me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white fs-4 me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white fs-4 me-3"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <hr class="my-4 border-secondary">
+      <div class="text-center small">
+        <p class="mb-0">© 2025 SparkTaktic. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <!--Boton para volver arriba-->
+  <a href="#" class="btn btn-info position-fixed bottom-0 end-0 m-4 rounded-circle fs-4 px-4 py-3" style="z-index:999;">
+    ↑
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
